@@ -27,7 +27,8 @@ const routes = [
     component: Dogs
   },
   {
-    path: '/pet',
+    /* I can pass in the others pages this kind of link e.g.:/pets/cats/${data.index} */
+    path: '/pet/:species/:id',
     name: 'pet',
     component: Pet
   }
