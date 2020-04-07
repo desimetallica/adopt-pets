@@ -1,8 +1,8 @@
 <template>
   <div>
     <!-- Here we use the component PetTable insted
-    to import all the table inside this code file -->
-    <petTable species="Cats" :pets="cats" />
+    to import all the table inside this code file (like Dogs.vue) -->
+    <petTable species="Cats" :pets="cats" /> <!-- here we are pulling from computed mapState the cats array variable so we need the ':' v-bind -->
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
   computed: {
     // ... spread operator
     ...mapState([
-      'cats'
+      'cats' // the cats array
     ])
   }
 }
