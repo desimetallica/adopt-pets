@@ -1,4 +1,5 @@
 # adopt-pets
+This repo is related to the second tutorial on video: https://www.youtube.com/watch?v=4deVCNJq3qc
 
 ## Project setup
 ```
